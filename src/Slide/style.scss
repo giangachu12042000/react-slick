@@ -1,0 +1,39 @@
+
+.container{
+    position: relative;
+    background-color: yellow;
+    height: 500px;
+    .box-1{
+        height: 300px;
+        width: 100%;
+    }
+    .box-slide{
+        // margin-top: 200px;
+        width: 80%;
+        margin:auto
+    }
+    // .slick-list{
+    //         background-color: black;
+    // }
+    // .item{
+        .slick-slide {
+            background-color: rgb(139, 93, 93)  !important;
+            width: 60px !important;
+            margin: 0px 15px;
+            h3{
+                width:100%;
+            }
+        }
+    // }
+    .show-popup{
+        width: 100px;
+        background-color: rgb(59, 79, 136);
+        height: 100;
+        .backgroun{
+            background-color: rgb(114, 216, 101);
+            width: 100px;
+            height: 100px;
+            margin-top: 20px;
+        }
+    }
+}
